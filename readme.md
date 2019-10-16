@@ -11,7 +11,7 @@ Resursive walk all children nodes of the node and return array of integer with `
 In example
 
 ```php
-	$sFieldName = static::$idFieldName;
+	$sFieldName = TreeAlgorithms::$idFieldName;
 	$id = $node->$sFieldName; 
 ```
 
