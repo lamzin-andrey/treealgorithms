@@ -1,0 +1,18 @@
+{
+    "name": "landlib/treealgorithms",
+    "description": "This group of methods for work with tree structure. Provide methods build tree from flat array, find node in the tree by id, walk tree and execulte callback function for each node. Node of the tree has fields like as id, parent_id, children. Concrete names of the tree node fields can be configured with TreeAlgorithms properties idFieldName, parentIdFieldName, childsFieldName. Also exists javascript release, see homepage link. Documentation of the release  javascript full compatible with this PHP class.",
+    "keywords": ["walk tree","search in tree"],
+    "homepage": "https://github.com/lamzin-andrey/landlib#treealgorithms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Lamzin",
+            "email": "lamzin.an@gmail.com",
+            "homepage": "https://github.com/lamzin-andrey/landlib#treealgorithms",
+            "role": "Developer"
+      }
+    ],
+    "require": {
+        "php": "^5.4"
+    }
+}
