@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../treealg.php';
+require __DIR__ . '/../src/treealgorithms.php';
 
 function consoleLog($k, $v, $bIsVarDump = false) {
 	echo "{$k}:\n";

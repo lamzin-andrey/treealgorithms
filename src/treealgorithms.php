@@ -1,4 +1,5 @@
 <?php
+
 class TreeAlgorithms {
 	/** @property strings idFieldName */
 	static public $idFieldName = 'id';

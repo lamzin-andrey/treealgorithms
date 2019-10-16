@@ -12,6 +12,11 @@
             "role": "Developer"
       }
     ],
+    
+    "autoload": {
+        "classmap": ["src"]
+    },
+    
     "require": {
         "php": "^5.4 || ^7.0 || ^7.1 || ^7.2. || ^7.2.1"
     }
