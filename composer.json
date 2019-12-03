@@ -1,5 +1,6 @@
 {
     "name": "landlib/treealgorithms",
+    "version": "1.2.3",
     "description": "This group of methods for work with tree structure. Provide methods build tree from flat array, find node in the tree by id, walk tree and execulte callback function for each node. Node of the tree has fields like as id, parent_id, children. Concrete names of the tree node fields can be configured with TreeAlgorithms properties idFieldName, parentIdFieldName, childsFieldName. Also exists javascript release, search lamzin-andrey/landlib on github.",
     "keywords": ["walk tree","search in tree"],
     "homepage": "https://github.com/lamzin-andrey/treealgorithms",
