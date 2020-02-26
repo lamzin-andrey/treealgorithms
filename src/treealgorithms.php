@@ -48,7 +48,7 @@ class TreeAlgorithms {
 			$oCallback->context->$sFunction($oTree);
 		}
 		$sFieldName = static::$childsFieldName;
-		if ($oTree->$sFieldName) {
+		if (isset($oTree->$sFieldName)) {
 			foreach ($oTree->$sFieldName as $oItem) {
 				static::walkAndExecuteAction($oItem, $oCallback);
 			}
