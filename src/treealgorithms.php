@@ -1,5 +1,5 @@
 <?php
-
+namespace Landlib;
 class TreeAlgorithms {
 	/** @property strings idFieldName */
 	static public $idFieldName = 'id';
